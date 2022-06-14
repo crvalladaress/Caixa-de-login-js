@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5F7C8A;
+}
+form{
+    background:white;
+    width: 50%;
+    margin: auto;
+    margin-top: 12%;
+}
+.titu{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px 0;
+    font-weight: bold;
+}
+.datas{
+    margin-left: 66px;
+}
+.dados{
+    margin: 5px 71px 25px 71px;
+}
+.span{
+    padding-left: 20px;
+}
+.nome, .sobrenome{
+    height: 45px;
+    border: 1px solid rgb(146, 146, 146);
+    padding-left: 15px;
+}
+.dia, .mes, .ano{
+    height: 35px;
+    width: 100px;
+    margin: 5px;
+    padding-left: 10px;
+}
+.boton{
+    width: 95%;
+    height:40px;
+    margin: 15px 15px;
+    cursor:pointer;
+    background: #5F7C8A;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.5s;
+    color:white;
+}
+.boton:hover{
+    background-color: #36444d;
+}
+
+.boton:active {
+    transform: scale(0.95);
+}
+
+.boton:after {
+    transition: all 0.8s;
+}
+
+.boton:active:after {
+    opacity: 3;
+    transition: 0.5s;
+}
+.subti{
+    padding-left: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

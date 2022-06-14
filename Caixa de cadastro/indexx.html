@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Cadastro</title>
+    </head>
+<body>            
+    <form class="form" id="form">
+        <h1 class="titu">Cadastre-se</h1>
+        <div class="dados">
+            <input class="nome" type="text" id="nome" placeholder="Nome" required/>
+        <span class="span">
+            <input class="sobrenome" type="text" id="sobrenome" placeholder="Sobrenome" required/>
+            </span>
+            </div>
+            <section class="datas" id="datas">
+                <h5 class="subti">Data de Nascimento:</h5>
+
+            <input type="text" class="dia" id="dia" required placeholder="Dia">
+            <input type="text" class="mes" id="mes" placeholder="Mês" required>
+            <input type="text" class="ano" id="ano" placeholder="Ano" required>
+
+        </section>
+            <button class="boton" id="btn" onclick="ageCheck()"> Enviar </button>        
+    </form>
+</section>    
+</body>
+<script src="main.js"></script>
+</html>
